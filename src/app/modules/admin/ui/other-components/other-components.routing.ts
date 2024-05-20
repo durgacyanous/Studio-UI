@@ -51,10 +51,10 @@ export const otherComponentsRoutes: Route[] = [
                         path     : 'search',
                         component: SearchComponent
                     },
-                    {
-                        path     : 'quick-chat',
-                        component: QuickChatComponent
-                    },
+                    // {
+                    //     path     : 'quick-chat',
+                    //     component: QuickChatComponent
+                    // },
                     {
                         path     : 'shortcuts',
                         component: ShortcutsComponent
