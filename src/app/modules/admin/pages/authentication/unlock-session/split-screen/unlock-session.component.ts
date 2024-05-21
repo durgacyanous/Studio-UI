@@ -17,7 +17,7 @@ export class UnlockSessionSplitScreenComponent implements OnInit
         type   : 'success',
         message: ''
     };
-    name: string = 'Brian Hughes';
+    name: string = 'Studio-UI';
     showAlert: boolean = false;
     unlockSessionForm: FormGroup;
 

@@ -15,14 +15,31 @@ const customPalettes = {
 };
 
 /**
+ * Custom Blue Palette
+ */
+const customBluePalette = {
+    50 : '#E0F7FF',   // Lightest blue
+    100: '#B3ECFF',  // Very light blue
+    200: '#80DFFF',  // Light blue
+    300: '#4DD2FF',  // Medium light blue
+    400: '#1AC5FF',  // Bright blue
+    500: '#00B8FF',  // Main blue (slightly lighter than #00aaff)
+    600: '#009EE6',  // Slightly darker blue
+    700: '#0084CC',  // Medium blue
+    800: '#006AB3',  // Darker blue
+    900: '#043d74'   // Darkest blue (similar to #043d74)
+};
+
+
+/**
  * Themes
  */
 const themes = {
     // Default theme is required for theming system to work correctly
     'default': {
         primary  : {
-            ...colors.indigo,
-            DEFAULT: colors.indigo[600]
+            ...customBluePalette,
+            DEFAULT: customBluePalette[500]
         },
         accent   : {
             ...colors.blueGray,
@@ -38,6 +55,7 @@ const themes = {
     },
     // Rest of the themes will use the 'default' as the base theme
     // and extend them with their given configuration
+
     'brand' : {
         primary: customPalettes.brand
     },
@@ -47,18 +65,18 @@ const themes = {
             DEFAULT: colors.teal[600]
         }
     },
-    'rose'  : {
-        primary: colors.rose
-    },
-    'purple': {
-        primary: {
-            ...colors.purple,
-            DEFAULT: colors.purple[600]
-        }
-    },
-    'amber' : {
-        primary: colors.amber
-    }
+    // 'rose'  : {
+    //     primary: colors.rose
+    // },
+    // 'purple': {
+    //     primary: {
+    //         ...colors.purple,
+    //         DEFAULT: colors.purple[600]
+    //     }
+    // },
+    // 'amber' : {
+    //     primary: colors.amber
+    // }
 };
 
 /**

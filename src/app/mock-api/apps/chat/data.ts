@@ -3000,8 +3000,8 @@ export const contacts = [
 ];
 export const profile: any = {
     id    : 'cfaad35d-07a3-4447-a6c3-d8c3d54fd5df',
-    name  : 'Brian Hughes',
-    email : 'hughes.brian@company.com',
-    avatar: 'assets/images/avatars/brian-hughes.jpg',
+    name  : 'Studui-Flow',
+    email : 'sas2py@test.gmail.com',
+    avatar: 'assets/images/avatars/sas2py.ico',
     about : 'Hi there! I\'m using FuseChat.'
 };
